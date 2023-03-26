@@ -33,6 +33,18 @@ const Certificates = () => {
             alt="certificate_5"
             className="w-[15%] min-w-[150px]"
           />
+          <img
+          src="https://dmi.or.ke/wp-content/uploads/2020/09/bd.png"
+          alt="certificate_5"
+          className="w-[15%] min-w-[150px]"
+        />
+        <img
+        src="https://dmi.or.ke/wp-content/uploads/2020/09/cooper.png"
+        alt="certificate_5"
+        className="w-[15%] min-w-[150px]"
+      />
+
+
         </div>
       </div>
     </section>

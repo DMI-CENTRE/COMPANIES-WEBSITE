@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const ExpertiseCard = () => {
   return (
     <div className="px-2 w-full md:w-1/2 pr-5 xl:max-w-[600px] xl:ml-auto">
-      <h1 className="text-3xl font-bold text-primary pt-40 ">Our Expertise</h1>
+      <h1 className="text-3xl font-bold text-primary pt-40 ">Get to learn about!</h1>
       {ExpertiseList.map((expertise) => (
         <div
           className="mt-10 w-full flex items-start gap-x-5 justify-center sm:justify-start"
