@@ -1,32 +1,37 @@
 const diseases_a = [
   {
     id: 1,
-    name: "abdominal aortic aneurysm",
+    name: "Soft style glucometer + 25 starter kit",
   },
   {
     id: 2,
-    name: "allergy",
+    name: "Safe Accu Glucometer + 25 starter kit",
   },
   {
     id: 3,
-    name: "alzheimer's disease",
+    name: "soft style strips (50s)",
   },
   {
     id: 4,
-    name: "arthritis",
+    name: "safe accu strips (50s)",
   },
+
   {
     id: 5,
-    name: "asthma",
+    name: "freestyle strips (50s)",
   },
+
   {
     id: 6,
-    name: "audiology",
+    name: "oncall plus strips (50s)",
   },
+
   {
     id: 7,
-    name: "autism spectrum disorder",
+    name: "insulin sytringes (50s)",
   },
+
+
 ];
 
 export default diseases_a;

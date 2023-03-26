@@ -7,10 +7,10 @@ const IntroSection = () => {
       {/* content */}
       <div className="max-w-[1200px] mx-auto w-full h-[400px] pt-8 flex flex-col items-start justify-center md:h-[500px]">
         <h1 className="text-white text-6xl font-semibold font-poppins leading-none sm:text-9xl">
-          Medcare
+          DMI CENTRE
         </h1>
         <h2 className="pl-[5px] text-xl text-white font-normal font-poppins sm:text-3xl">
-          Medical Center in Kathmandu
+          Kenya diabetes Management and Information Centre (DMI)
         </h2>
         <p className="pl-[5px] mt-2 text-white text-base leading-6 font-normal font-poppins tracking-wider sm:text-[22px]">
           Living Healthy Together

@@ -18,8 +18,8 @@ const Form = () => {
           <p className="my-6 text-base text-gray-400">
             We will send you a confirmation within 24 hours.
             <br />
-            <strong className="text-white font-bold">Emergency? </strong>Call :
-            +977-98........{" "}
+            <strong className="text-white font-bold">Phone Number </strong>Call :
+            +254 722 755 828{" "}
           </p>
           {/* form fields */}
           <div className="pr-2 mx-auto md:m-0">
@@ -57,31 +57,31 @@ const Form = () => {
                 className="w-1/2 text-black px-2 py-3 rounded text-base font-semibold focus:outline-2 focus:outline-primaryDark outline-none focus:ring-2 focus:ring-primaryDark"
               >
                 <option value="lung" className="text-gray-900">
-                  Lung Disease
+                  Random Blood sugar test
                 </option>
                 <option value="heart" className="text-gray-900">
-                  Heart Disease
+                  Revist + Supplies
                 </option>
                 <option value="orthopaedic" className="text-gray-900">
-                  Orthopaedic
+                  Medical checkup type 2
                 </option>
                 <option value="surgery" className="text-gray-900">
-                  General Surgery
+                  Enquiry
                 </option>
                 <option value="pharmacy" className="text-gray-900">
-                  Pharmacy
+                  HBA1C
                 </option>
                 <option value="sports" className="text-gray-900">
-                  Sports Injury
+                  Consultation
                 </option>
                 <option value="fever" className="text-gray-900">
-                  Fever & Flu
+                 Urine Dipstick
                 </option>
                 <option value="dental" className="text-gray-900">
-                  Dental Service
+                  Diabetes Education/ Nutrition
                 </option>
                 <option value="eye" className="text-gray-900">
-                  Eye Care
+                  BP/ BMI
                 </option>
               </select>
             </div>

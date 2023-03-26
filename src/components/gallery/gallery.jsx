@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../assets/preview.png"
 
 const Gallery = ( ) => {
    return (
@@ -14,17 +13,11 @@ const Gallery = ( ) => {
       </div>
       <div className="bg-white text-center py-7">
         <Link to="">
-          <h1 className="text-primary text-xl font-bold">Annual Diabetes Walk</h1>
+          <h1 className="text-primary text-xl font-bold">{name}</h1>
         </Link>
-        <p className="text-base text-gray-600 mt-1">Walking, in particular, helps in reducing the belly fat,
-        which is one of the contributing factors for type 2 diabetes. Exercise can reduce the sensitivity for
-        pain by the release of endorphins. Regular exercises have shown to improve insulin sensitivity and
-        hence important in the management of diabetes.</p>
+        <p className="text-base text-gray-600 mt-1">{profession}</p>
       </div>
-
     </div>
-
-
   );
 };
 

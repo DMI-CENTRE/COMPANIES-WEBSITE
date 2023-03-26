@@ -1,24 +1,24 @@
 const diseases_b = [
   {
     id: 1,
-    name: "back pain & neck pain",
+    name: "Blood Pressure (BP)",
   },
   {
     id: 2,
-    name: "back surgery",
+    name: "Body Mass Index (BMI)",
   },
+
   {
     id: 3,
-    name: "balance & mobility clinic",
+    name: "Random blood sugar (RBS)",
   },
+
   {
     id: 4,
-    name: "bariatric surgery",
+    name: "HBA1C",
   },
-  {
-    id: 5,
-    name: "barrett's esophagus",
-  },
+
+
 ];
 
 export default diseases_b;

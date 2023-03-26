@@ -1,27 +1,27 @@
 const links = [
   {
     id: 1,
-    about: "Lumbar Disectomy",
+    about: "Diabetes Walk",
   },
   {
     id: 2,
-    about: "Endoscopy",
+    about: "Screening",
   },
   {
     id: 3,
-    about: "Elbow Arthroscopy",
+    about: "Consultation",
   },
   {
     id: 4,
-    about: "Colorectal",
+    about: "Foot Care",
   },
   {
     id: 5,
-    about: "Knee Arthroscopy",
+    about: "Diabetes Education",
   },
   {
     id: 6,
-    about: "Hemorrhoids",
+    about: "How to inject insulin",
   },
 ];
 

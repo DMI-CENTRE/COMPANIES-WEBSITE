@@ -14,7 +14,7 @@ const ChairmanMessage = () => {
           <ImQuotesLeft size="40px" fill="rgb(10, 124, 139)" />
         </i>
         <p className="py-2 text-base text-black">
-          At MedCare our vision is to be the most well regarded healthcare
+          At Dmi our vision is to be the most well regarded healthcare
           provider in India committed to the highest standards of clinical
           excellence and patient care, supported by latest technology and
           cutting edge research.
@@ -30,7 +30,7 @@ const ChairmanMessage = () => {
         </p>
         <h2 className="mt-3 text-xl font-bold text-primary">Full Name</h2>
         <p className="py-1 text-base text-black">
-          Chairman & Managing Director
+          Dr. Nancy Ngugi
         </p>
       </div>
     </div>

@@ -1,32 +1,31 @@
 const diseases_d = [
   {
     id: 1,
-    name: "dentistry",
+    name: "dmi polo shirts",
   },
   {
     id: 2,
-    name: "depression",
+    name: "dmi t-shirts",
   },
   {
     id: 3,
-    name: "dermatology",
+    name: "dmi cap",
   },
   {
     id: 4,
-    name: "diabetes",
+    name: "dmi wrist band",
   },
+
   {
-    id: 5,
-    name: "dialysis",
+    id: 4,
+    name: "diabetes nutrition",
   },
+
   {
-    id: 6,
-    name: "diaphragm plication",
+    id: 4,
+    name: "diabetes education",
   },
-  {
-    id: 7,
-    name: "dystonia",
-  },
+
 ];
 
 export default diseases_d;

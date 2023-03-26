@@ -16,12 +16,8 @@ const ServiceCard = () => {
             </h2>
             <p className="mt-3">{service.text}</p>
             <div className="mt-3 flex items-center gap-x-2">
-              <Link to="" className="text-base font-medium text-gray-500">
-                Learn More
-              </Link>
-              <i>
-                <IoIosArrowRoundForward size="35px" fill="grey" />
-              </i>
+
+
             </div>
           </div>
         ))}

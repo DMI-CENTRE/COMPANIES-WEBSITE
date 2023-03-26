@@ -25,7 +25,7 @@ const Prescribtion = () => {
         {/* book an appointment */}
         <div className="sm:w-2/3">
           <h1 className="text-3xl font-semibold text-primaryDark font-poppins">
-            Online prescriptions and refills available now
+            Prescriptions and refills available at DMI Centre for Type one
           </h1>
           <p className="py-5  text-base tracking-wide font-poppins">
             Get prescription refills on existing medications or new
@@ -40,12 +40,12 @@ const Prescribtion = () => {
           <div className="sm:w-1/3 flex items-center">
             <GoCalendar size="35px" fill="rgb(14, 132, 147)" />
             <p className="text-xl font-poppins pl-3">
-              Medication services available 24/7 for adults and kids (3+)
+              Medication services available for kids with T1D
             </p>
           </div>
           <div className="sm:w-1/3 flex items-center my-5 sm:m-0">
             <AiOutlineInsurance size="30px" fill="rgb(14, 132, 147)" />
-            <p className="text-xl font-poppins pl-3">No insurance required</p>
+            <p className="text-xl font-poppins pl-3">Membership required for individuals</p>
           </div>
           <div className="sm:w-1/3 flex items-center">
             <HiHome size="30px" fill="rgb(14, 132, 147)" />
@@ -56,7 +56,7 @@ const Prescribtion = () => {
         </div>
 
         <h1 className="py-5 text-3xl font-semibold text-primaryDark font-poppins text-center leading-8">
-          3 simple steps to request your online prescription today
+          3 simple steps to acquire medication as a new patient
         </h1>
         {/* steps */}
         <div className="mt-5">

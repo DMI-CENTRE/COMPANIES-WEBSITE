@@ -58,7 +58,7 @@ const OnlinePrescriptionService = ({
           <div>
             <div className="mt-3 flex items-center gap-x-2">
               <Link to="" className="text-xl font-semibold text-primary">
-                Learn more about our prescribtion discount card
+                Learn more about our prescription package
               </Link>
               <i>
                 <IoIosArrowRoundForward size="35px" fill="rgb(14, 132, 147)" />

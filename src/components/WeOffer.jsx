@@ -7,7 +7,7 @@ const Weoffer = () => {
       id: 1,
       background: "bg-primary",
       img: "https://a6e8z9v6.stackpathcdn.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/col-feature-1.png",
-      title: "Best Monitoring System",
+      title: "Supplies for type one",
 
       description:
         "Despite advances in technology and understanding of biological systems, drug discovery is still a lengthy, expensive.",
@@ -17,7 +17,7 @@ const Weoffer = () => {
       background:
         "before:content-[''] before:bg-[url('https://a6e8z9v6.stackpathcdn.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/video-featured-1-1.jpg')] before:bg-cover before:bg-no-repeat before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0 before:brightness-[0.4] relative w-full h-full",
       img: "https://a6e8z9v6.stackpathcdn.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/col-feature-2.png",
-      title: "Advanced Operating Room",
+      title: "Advanced Diabetes Education",
       description:
         "Despite advances in technology and understanding of biological systems, drug discovery is still a lengthy, expensive.",
     },
@@ -25,7 +25,7 @@ const Weoffer = () => {
       id: 3,
       background: "bg-primaryDark",
       img: "https://a6e8z9v6.stackpathcdn.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/col-feature-3.png",
-      title: "Only Best Doctors",
+      title: "Only Best Doctors/ Services",
       description:
         "Despite advances in technology and understanding of biological systems, drug discovery is still a lengthy, expensive.",
     },

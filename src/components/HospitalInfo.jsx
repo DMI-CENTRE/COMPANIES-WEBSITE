@@ -45,11 +45,11 @@ const HospitalInfo = () => {
         <h2 className="text-white text-4xl font-bold">{patients}+</h2>
       </div>
       <div className="min-w-fit w-56 flex flex-col-reverse items-center">
-        <h1 className="text-white text-xl font-medium ">Medical Beds</h1>
+        <h1 className="text-white text-xl font-medium ">Partners</h1>
         <h2 className="text-white text-4xl font-bold">{beds}</h2>
       </div>
       <div className="min-w-fit w-56 flex flex-col-reverse items-center">
-        <h1 className="text-white text-xl font-medium ">Wining Awards</h1>
+        <h1 className="text-white text-xl font-medium ">Winning Awards</h1>
         <h2 className="text-white text-4xl font-bold">{awards}</h2>
       </div>
     </div>

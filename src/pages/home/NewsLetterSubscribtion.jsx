@@ -8,7 +8,7 @@ const NewsLetterSubscribtion = () => {
       <div className="bg-white flex flex-col sm:flex-row items-center">
         <div className="w-1/2">
           <img
-            src="/images/doctor_talking_with_patient.avif"
+            src="/images/young.jpg"
             alt="doctor talking with patients"
             className="w-full"
           />
@@ -18,14 +18,15 @@ const NewsLetterSubscribtion = () => {
             <ImQuotesLeft size="40px" fill="rgb(10, 124, 139)" />
           </i>
           <p className="py-5 lg:py-10 text-base text-gray-600">
-            Historically, drugs were discovered through identifying the active
-            ingredient from traditional remedies or by serendipitous discovery.
-            Later chemical libraries of synthetic small molecules.
-          </p>
+          Diabetes is a chronic condition in which blood glucose (sugar) is too high.
+          The blood always has some glucose in it because the body needs glucose
+          for energy. Glucose comes from the food we eat. The pancreas produces the
+          hormone insulin that helps glucose get from the blood into body cells where it is converted into energy.
+                   </p>
           <h1 className="text-xl font-bold text-primary md:pb-5">
-            Dr.Full Name
+            Erick Omondi
           </h1>
-          <p className="text-sm text-gray-600">Cardiologist</p>
+          <p className="text-sm text-gray-600">Diabetes Educator</p>
         </div>
       </div>
 

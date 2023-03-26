@@ -17,17 +17,17 @@ const RecentNews = () => {
         <div className="lg:pt-9 max-w-[400px]w-1/2 mx-auto ">
           <div className="overflow-hidden">
             <img
-              src="/images/hospital_equipment.avif"
+              src="/images/about.jpeg"
               alt="hospital equipment"
               className="cursor-pointer transition duration-500 ease-in hover:scale-110 hover:brightness-75"
             />
           </div>
           <div className="bg-primary px-4 py-5">
             <h2 className="text-white text-base font-semibold pb-1 cursor-pointer">
-              Using anthrax to fight cancer effectively
+              Why Join DMI CENTRE
             </h2>
             <p className="text-white text-sm cursor-pointer">
-              Feburary 28, 2019 . Antibiotic
+              Feburary 21, 2023 . Get support from us
             </p>
           </div>
         </div>

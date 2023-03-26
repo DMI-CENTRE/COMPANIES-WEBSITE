@@ -41,7 +41,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Find a Doctor
+                  Events
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
@@ -50,7 +50,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  About Us
+                  About DMI
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
@@ -59,7 +59,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Our Services
+                  Services
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
@@ -68,7 +68,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Our Doctors
+                  Our Partners
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
@@ -77,7 +77,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Online Prescribtions
+                  Prescriptions
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 mb-4 hover:border-b-4 hover:border-white">
@@ -86,9 +86,11 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Urgent Care
+                  Projects
                 </NavLink>
               </li>
+
+
             </ul>
           </>
         )}

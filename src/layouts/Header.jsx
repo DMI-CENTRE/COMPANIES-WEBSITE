@@ -9,8 +9,9 @@ const Header = () => {
       {/* logo */}
       <div>
         <Link to="/">
+
           <h2 className="text-3xl text-primary font-semibold tracking-wide leading-8">
-            MedCare
+            Dmi Centre
           </h2>
         </Link>
       </div>
@@ -35,10 +36,10 @@ const Header = () => {
           </i>
           <div className="pl-2">
             <span className="text-base font-semibold font-poppins text-primaryDark">
-              Best Hospital
+              Best support
             </span>
             <p className="text-pastelBlue text-sm font-poppins text-gray-500">
-              Nepal News
+              Provided from us
             </p>
           </div>
         </div>
@@ -51,7 +52,7 @@ const Header = () => {
               Number #1
             </span>
             <p className="text-sm font-poppins text-gray-500">
-              Clinic in Nepal
+              Diabetes Clinic
             </p>
           </div>
         </div>

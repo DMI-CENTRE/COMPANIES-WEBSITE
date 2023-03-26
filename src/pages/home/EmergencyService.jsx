@@ -10,16 +10,15 @@ const EmergencyService = () => {
             <FaHeartbeat size="25px" fill="white" />
           </i>
           <h1 className="text-white text-xl font-semibold">
-            Emergency Service
+            Get Support from us!
           </h1>
         </div>
         <p className="text-white text-base pt-3">
-          An emergency department (ED), also known as an accident & emergency
-          department (A&E), emergency room (ER), emergency ward (EW) or casualty
-          department, is a medical treatment.
+        DMI Centre provides services to people and children with diabetes, their caregivers,
+        healthcare providers, the general public and other stakeholders involved in diabetes.
         </p>
         <h1 className="text-white text-xl font-medium pt-5">
-          Call : +977-98........
+          Call : +254 722 755 828
         </h1>
       </div>
       {/* right part */}
@@ -31,17 +30,20 @@ const EmergencyService = () => {
           <h1 className="text-white text-xl font-semibold">Opening Hours</h1>
         </div>
         <p className="text-white text-base pt-3">
-          Since our establishment in the 2000 B.S. we have been serving our best
-          to make all of us free from illness, pain, and diseases. We are
-          located in the heart of our capital Kathmandu.
+        Across Kenya, community awareness around diabetes is low.
+        People are often diagnosed through medical outreach camps
+        or when patients arrive at the hospital with complications of
+        diabetes like thirst, vision change, fatigue and constant hunger.
+        For many Kenyans, the cost of health care is a key obstacle to
+        treatment.
         </p>
         <div className="border-white border-b-[1px] text-white pb-7 py-4">
           <span className=" float-left">Mon - Fri</span>
-          <span className="float-right">09:00 - 17:00</span>
+          <span className="float-right">08:00 AM - 4:00 PM</span>
         </div>
         <div className="border-white border-b-[1px] text-white pb-7 pt-4">
           <span className=" float-left">Sat - Sun</span>
-          <span className="float-right">10:00 - 14:00</span>
+          <span className="float-right"> Closed </span>
         </div>
       </div>
     </div>

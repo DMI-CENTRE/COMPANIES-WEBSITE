@@ -1,32 +1,15 @@
 const diseases_c = [
   {
     id: 1,
-    name: "cancer",
+    name: "gold accu glucometer + 25 starter kit",
   },
   {
     id: 2,
-    name: "cardiac (heart) imaging",
+    name: "gold accu strips (50s)",
   },
   {
     id: 3,
-    name: "cardiac rehabilitation",
-  },
-  {
-    id: 4,
-    name: "cardiology & heart disease",
-  },
-  {
-    id: 5,
-    name: "cardiothoracic surgery",
-  },
-  {
-    id: 6,
-    name: "cardiovascular (heart care)",
-  },
-  {
-    id: 7,
-    name: "cardioversion",
+    name: "glucometer lithium battery",
   },
 ];
-
 export default diseases_c;

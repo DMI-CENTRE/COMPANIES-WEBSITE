@@ -1,11 +1,12 @@
 import React from "react";
+import BIT from "../../assets/bit.png"
 
 const LeadersCard = ({ name, position }) => {
   return (
     <div className="w-[45%] md:w-[22%] max-w-[300px] rounded-lg shadow-lg">
       <img
-        src="https://a6e8z9v6.stackpathcdn.com/mediz/hospital/wp-content/uploads/sites/2/2019/12/p-8-400x400.jpg"
-        alt="hospital_member"
+        src={BIT}
+        alt="staff_member"
         className="w-full rounded-t-md"
       />
 

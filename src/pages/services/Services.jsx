@@ -142,21 +142,20 @@ const Services = () => {
       <section>
         <div
           style={{
-            backgroundImage: `linear-gradient(to bottom,rgba(10, 124, 139,0.3) 70%,rgba(10, 124, 139,0.5) 100%), url(/images/services/doctor.avif)`,
+            backgroundImage: `linear-gradient(to bottom,rgba(10, 124, 139,0.3) 70%,rgba(10, 124, 139,0.5) 100%),
+            url(/images/services/supply.png)`,
           }}
           className="mt-10 w-full bg-cover bg-no-repeat bg-center min-h-max saturate-150 h-[600px]"
         >
           <div className="max-w-[1200px] mx-auto h-full flex items-center justify-end">
             <div className="hidden lg:block py-8 px-6 w-96 float-right bg-white rounded-xl">
               <h1 className="text-primary text-4xl font-semibold leading-10">
-                Whole Person Care Starts Here
+              Overview of Diabetes in Kenya
               </h1>
               <p className="py-8 text-base font-poppins">
-                Every caregiver in the Centura Health community shares a common
-                goal: to help you live a whole and healthy life. Achieving that
-                goal means delivering specialized care to ensure your every need
-                is met with compassion and expertise. Explore our complete list
-                of medical services to find the right experts for your needs.
+              Across Kenya, community awareness around diabetes is low.
+              People are often diagnosed through medical outreach camps or
+              when patients arrive at the hospital with complications of diabetes like thirst, vision change, fatigue and constant hunger.
               </p>
               <a href="#all_services">
                 <button className=" px-5 py-2 text-base text-white font-medium flex items-center rounded-3xl cursor-pointer bg-primary border-2 border-primary transition-colors duration-200 ease-in-out hover:text-primary hover:bg-white ">
@@ -173,14 +172,14 @@ const Services = () => {
       <section className="bg-primary">
         <div className="max-w-[1200px] mx-auto px-2 mt-10 py-10">
           <h1 className="text-white text-2xl sm:text-3xl font-semibold leading-10">
-            Our comprehensive ecosystem of specialized services is built to
-            touch, treat and heal
+          DMI Centre provides services to people and children with diabetes,
+          their caregivers, healthcare providers involved in diabetes.
           </h1>
           <p className="py-3 text-gray-50 tracking-wide">
             Here, you have access to an expansive breadth of solutions with deep
             expertise in the latest medicine, technology and treatments. And our
-            specialties cover thousands of people just like you across Mechi and
-            Mahakali. It’s all part of our continued commitment to supporting a
+            specialties cover thousands of people just like you across Kenya.
+            It’s all part of our continued commitment to supporting a
             healthier, happier you.
           </p>
         </div>

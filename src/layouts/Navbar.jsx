@@ -19,7 +19,7 @@ const Navbar = () => {
             to="/findadoctor"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Find a Doctor
+            Events
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -27,7 +27,7 @@ const Navbar = () => {
             to="/aboutus"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            About Us
+            About DMI
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -35,7 +35,7 @@ const Navbar = () => {
             to="/ourservices"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Our Services
+            Services
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -43,7 +43,7 @@ const Navbar = () => {
             to="/ourdoctors"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Our Doctors
+            Our Specialists
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -51,7 +51,7 @@ const Navbar = () => {
             to="/onlineprescribtions"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Online Prescribtions
+            Prescriptions
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -59,7 +59,7 @@ const Navbar = () => {
             to="/urgentcare"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Urgent Care
+            Projects
           </NavLink>
         </li>
       </ul>

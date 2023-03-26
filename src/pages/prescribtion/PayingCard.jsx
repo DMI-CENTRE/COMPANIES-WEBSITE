@@ -18,15 +18,15 @@ const PayingCard = ({
         <div className="">
           <span className="leading-6 text-sm">Membership</span>
           <div className="py-3 text-xl font-semibold text-primary">
-            Rs.5000<sub className="text-sm">/month</sub>
+            1000ksh<sub className="text-sm">/annually</sub>
           </div>
-          <span className="text-sm">First month free</span>
+          <span className="text-sm">200ksh per Month</span>
         </div>
         {/* middle plus */}
         <span className="text-3xl px-3 text-primary">+</span>
         {/* right part */}
         <div className="">
-          <span className="text-sm">First Visit</span>
+          <span className="text-sm">Monthly visit</span>
           <div className="py-3 text-xl font-semibold text-primary">
             {firstVisitPayment}
           </div>
@@ -35,7 +35,7 @@ const PayingCard = ({
       </div>
       {/* 30 days of membership */}
       <h2 className="px-3 py-2 text-white font-semibold">
-        30 days of free membership
+        Type one Membership
       </h2>
       <ul className="px-3 text-sm text-gray-300">
         <li className="flex items-center gap-x-2">

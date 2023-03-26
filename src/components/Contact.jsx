@@ -86,7 +86,7 @@ const Contact = () => {
             />
             <Marker position={[27.6168, 85.548]}>
               <Popup className="text-base font-medium">
-                Dhulikhel Hospital. <br /> Call : 98..... for emergency
+                DMI CENTRE<br /> Call : 0722321222 for queries
               </Popup>
             </Marker>
           </MapContainer>
