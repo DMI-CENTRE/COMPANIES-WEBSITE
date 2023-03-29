@@ -10,7 +10,7 @@ import Services from "./pages/services/Services";
 import UrgentCare from "./pages/UrgentCare";
 import NoPage from "./pages/NoPage";
 import Layout from "./layouts/Layout";
-
+import Profile from "./pages/profile"
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +25,7 @@ function App() {
             <Route path="/ourdoctors" element={<OurDoctor />} />
             <Route path="/onlineprescribtions" element={<Prescribtion />} />
             <Route path="/urgentcare" element={<UrgentCare />} />
+            <Route path="/profile" element={<Profile />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

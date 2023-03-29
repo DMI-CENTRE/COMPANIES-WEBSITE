@@ -25,12 +25,12 @@ const ExpertiseCard = () => {
             </h2>
             <p className="mt-3">{expertise.text}</p>
             <div className="mt-3 flex items-center gap-x-2">
-              <Link to="" className="text-base font-medium text-gray-700">
+      {/* Link to="" className="text-base font-medium text-gray-700">
                 Learn More
-              </Link>
+      </Link>
               <i>
                 <IoIosArrowRoundForward size="35px" fill="grey" />
-              </i>
+              </i>  */}
             </div>
           </div>
         </div>

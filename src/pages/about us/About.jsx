@@ -30,7 +30,7 @@ const AboutUs = () => {
           <ChairmanMessage />
         </section>
         <section className="mt-8">
-          <Heading text="Our Values" />
+          <Heading text="Our Principles" />
           <div className="mt-5 flex gap-y-10 flex-wrap justify-between">
             {values.map((value) => (
               <ValuesCard
@@ -43,7 +43,7 @@ const AboutUs = () => {
           </div>
         </section>
         <section className="mt-14">
-          <Heading text="Our Leaders" />
+          <Heading text="DMI Team" />
           <div className="mt-10 px-2 sm:px-5 flex flex-wrap gap-6 sm:gap-6 sm:justify-start lg:gap-8 xl:gap-10">
             {leaders.map((leader) => (
               <LeadersCard

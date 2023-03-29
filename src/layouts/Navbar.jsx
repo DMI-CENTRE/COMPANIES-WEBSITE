@@ -15,13 +15,7 @@ const Navbar = () => {
     <nav className="hidden max-w-[1200px] mx-auto px-2 md:flex items-center justify-between mt-14">
       <ul className="flex items-center gap-x-3 lg:gap-x-5">
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
-          <NavLink
-            to="/findadoctor"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
-            Events
-          </NavLink>
-        </li>
+                 </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
           <NavLink
             to="/aboutus"
@@ -40,10 +34,18 @@ const Navbar = () => {
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
           <NavLink
+            to="/urgentcare"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Projects
+          </NavLink>
+        </li>
+        <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
+          <NavLink
             to="/ourdoctors"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Our Specialists
+            Directors
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -51,17 +53,16 @@ const Navbar = () => {
             to="/onlineprescribtions"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Prescriptions
+            Education
           </NavLink>
         </li>
-        <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
-          <NavLink
-            to="/urgentcare"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
-            Projects
-          </NavLink>
-        </li>
+
+        <NavLink
+        to="/findadoctor"
+        style={({ isActive }) => (isActive ? activeStyle : undefined)}
+      >
+        Events
+      </NavLink>
       </ul>
       <div className="flex items-center gap-x-2 lg:gap-x-8">
         <i>

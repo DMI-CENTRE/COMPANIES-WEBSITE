@@ -1,10 +1,15 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Button from "./ui/Button";
+import emailjs from "emailjs-com"
+import { useRef } from 'react';
 
 const Contact = () => {
+        const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs.sendForm('service_bkuctkq', 'template_ca4veie', form.current, 'bMys3BixuIkjLHIEFn')
+    e.target.reset( )
   };
 
   // latitude and longitude of Dhulikhel Hospital
@@ -22,7 +27,7 @@ const Contact = () => {
           <p className="text-xl font-semibold text-white py-5">
             Get in Touch With Us.
           </p>
-          <form onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={handleSubmit}>
             <input
               type="text"
               name="name"

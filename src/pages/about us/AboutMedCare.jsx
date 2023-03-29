@@ -79,6 +79,43 @@ const AboutMedCare = () => {
       •	Transparency
       </p>
 
+      <h1>Key Achievements</h1>
+
+      <h2>1. Increased awareness, knowledge and management of diabetes among the public and healthcare personnel </h2>
+      <p className="py-3 leading-7 text-black">
+      - More than 123,000 community members sensitised on diabetes during various forums in different regions of Kenya (e.g. free community medical camps) <br/>
+      - Different cadres of healthcare professionals educated and trained on diabetes management; management of diabetes in children; diabetic foot, foot care and wound management. <br/>
+      - School pupils, students, teachers and parents sensitized on diabetes and healthy living. <br/>
+      - Implementation of the National Diabetes Comprehensive Care programme in collaboration with the Ministry of Health – the National Diabetes Strategy one of the outputs of the programme. <br />
+      - Funding received: World Diabetes Foundation, Safaricom Foundation, Safaricom Ltd, Association of Kenya Insurers, Kenya Power Ltd, The Rockefeller Foundation. <br/>
+      </p>
+
+      <h2>2. Encourage people living with diabetes recognize the importance of good blood glucose control in preventing development of complications </h2>
+      <p className="py-3 leading-7 text-black">
+      - Management of diabetes and quality of life of more than 300 children/young adults,
+      from disadvantaged backgrounds, living with type 1 diabetes in Kenya improved.
+       Children and parents/care-givers empowered to manage type 1 diabetes via education;
+       counseling; provision tools for diabetes self-management; and participation in
+       diabetes youth camps, parents forums, home and school visits. <br/>
+      - Adults and children living with diabetes and their care-givers educated on diabetes management, nutrition and physical activity. <br/>
+      - School pupils, students, teachers and parents sensitized on diabetes and healthy living. <br/>
+      - DMI’s Diabetes Children’s project funded by WDF used as a model for rolling out of diabetes care for children with type 1 diabetes in Kenya:
+      10 centres rolled out in various regions (Changing Diabetes in Children programme). <br />
+      - Funding received: WDF, Novo Nordisk, Johnsons & Johnsons, Safaricom Foundation, Safaricom Ltd. <br/>
+      </p>
+
+      <h2>3. Provide information about diabetes complications and enable people live with diabetes without sacrificing quality of life and well-being </h2>
+      <p className="py-3 leading-7 text-black">
+      - People living with diabetes educated on diabetes self-management and blood glucose control. <br/>
+      - Foot care education provided to all persons living with diabetes as part of the diabetes education programme. <br/>
+           </p>
+
+      <h2>4. To enhance self-care by addressing the social, cultural and psychological aspects of diabetes </h2>
+      <p className="py-3 leading-7 text-black">
+      - Aspects of psychosocial aspects of diabetes in children discussed during parents forums and diabetes youth camps. <br/>
+      - Individual counselling on psychological aspects of diabetes provided. <br/>
+      - Formation of diabetes support groups. <br/>
+      </p>
         <p className="py-3 leading-7 text-black">
         Stay connected with us on Linkedin at{" "}
         <span className="text-primary">

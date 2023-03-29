@@ -1,31 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../assets/preview.png"
+import { IoIosArrowRoundForward } from "react-icons/io";
+import ServiceList from "../data/Event"
 
-const Gallery = ( ) => {
-   return (
-    <div className="mt-5 max-w-[380px] mx-auto rounded shadow-lg z-10 sm:mx-0">
-      <div className="overflow-hidden">
-        <img
-          src={img}
-          alt="cute doctor"
-          className="rounded-t-md transition duration-300 ease-in hover:scale-110 hover:brightness-75"
-        />
+const ServiceCard = () => {
+  return (
+    <section className="max-w-[1200px] mx-auto px-2 mt-10" id="ourservices">
+      <h1 className="text-3xl font-bold text-primary">EVENTS</h1>
+      <div className="mt-10 flex items-center gap-y-8 flex-wrap justify-between">
+        {ServiceList.map((event) => (
+          <div key={event.id} className="w-full sm:w-[45%] md:w-[30%]">
+            <img src={event.img} alt={`${event.title}`} />
+            <h2 className="mt-5 text-xl font-semibold text-primary">
+              {event.title}
+            </h2>
+            <p className="mt-3">{event.text}</p>
+            <h3 className="mt-5 text-xl font-semibold text-primary">
+              {event.date} <br/>
+              {event.venue}
+            </h3>
+            <div className="mt-3 flex items-center gap-x-2">
+
+
+            </div>
+          </div>
+        ))}
       </div>
-      <div className="bg-white text-center py-7">
-        <Link to="">
-          <h1 className="text-primary text-xl font-bold">Annual Diabetes Walk</h1>
-        </Link>
-        <p className="text-base text-gray-600 mt-1">Walking, in particular, helps in reducing the belly fat,
-        which is one of the contributing factors for type 2 diabetes. Exercise can reduce the sensitivity for
-        pain by the release of endorphins. Regular exercises have shown to improve insulin sensitivity and
-        hence important in the management of diabetes.</p>
-      </div>
-
-    </div>
-
-
+    </section>
   );
 };
 
-export default Gallery
+export default ServiceCard;

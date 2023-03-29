@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "../components/ui/Dropdown";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
+import Logo from "../assets/preview.png"
 
 const Header = () => {
   return (
@@ -11,8 +12,10 @@ const Header = () => {
         <Link to="/">
 
           <h2 className="text-3xl text-primary font-semibold tracking-wide leading-8">
-            Dmi Centre
-          </h2>
+          <a href="#" className="logo">
+          <img src={Logo} alt="logo" />
+      </a>
+                      </h2>
         </Link>
       </div>
       {/* right part */}

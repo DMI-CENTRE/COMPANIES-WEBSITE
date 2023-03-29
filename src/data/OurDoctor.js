@@ -1,15 +1,15 @@
 const doctors = [
   {
     id: 1,
-    name: "Thomas Paul",
-    profession: "Cardiologist",
+    name: "Dr Nancy Ngugi",
+    profession: "Endocrinologist",
     img: "https://www.springheadhealth.co.uk/media/team/175c8e27-9011-4fda-ba66-3839992fe9e7.webp",
     bio: "https://demo.goodlayers.com/mediz/hospital/personnel/thomas-paul/",
   },
   {
     id: 2,
-    name: "Thomas Paul",
-    profession: "David James",
+    name: "Dr Daniel Katambo",
+    profession: "Physician",
     img: "https://www.springheadhealth.co.uk/media/team/175c8e27-9011-4fda-ba66-3839992fe9e7.webp",
     bio: "https://demo.goodlayers.com/mediz/hospital/personnel/david-james/",
   },

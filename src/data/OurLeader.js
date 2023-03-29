@@ -2,14 +2,14 @@ const leaders = [
   {
     id: 1,
     img: "",
-    name: "Sheila Wanjiku",
-    position: "Accountant/ Acting Program Manager",
-  },
+    name: "Joan Kimetto",
+    position: "Program Manager",
+     },
   {
     id: 2,
     img: "",
-    name: "Joan Kimetto",
-    position: "Program Manager",
+    name: "Sheila Wanjiku",
+    position: "Accountant/ Acting Program Manager",
   },
   {
     id: 3,

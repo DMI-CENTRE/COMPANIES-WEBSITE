@@ -68,7 +68,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Our Partners
+                  Directors
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
