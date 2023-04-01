@@ -12,7 +12,7 @@ module.exports = {
         secondaryLight: "var(--c-secondarylight)",
       },
       backgroundImage: {
-        hospitalImg: "url(./assets/hospital.avif)",
+        hospitalImg: "url(./assets/hand.jpg)",
         formImg: "url(./assets/doctor.avif)",
       },
     },
