@@ -1,5 +1,6 @@
 import React from "react";
 import { ImQuotesLeft } from "react-icons/im";
+import {TbSend} from "react-icons/tb"
 
 const NewsLetterSubscribtion = () => {
   return (
@@ -35,7 +36,7 @@ const NewsLetterSubscribtion = () => {
         <div className="md:flex items-center">
           <div className="w-full md:w-1/2">
             <h1 className="text-white text-2xl font-bold ">
-              Subscribe to our newsletter
+              Share an Email to us
             </h1>
             <p className="pt-5 text-base text-gray-100">
             DMI Centre empowers people living with diabetes, conducts mass screening on diabetes,
@@ -54,8 +55,9 @@ const NewsLetterSubscribtion = () => {
                 placeholder="Your Email Address"
                 className="w-[50%] sm:w-full basis-3/4 rounded rounded-r-none pl-5 py-3"
               />
-              <button className="px-2 sm:px-5 py-3 basis-1/4 text-white bg-[rgb(3,59,66)] rounded rounded-l-none hover:bg-primaryDark">
-                Subscribe
+              <button className="px-2 sm:px-5 py-3 basis-1/4 text-white bg-[rgb(3,59,66)] rounded rounded-l-none hover:bg-primaryDark" >
+                Email us
+                <a href="mailto:joykemunto333@gmail.com"><TbSend className="juy" /></a>
               </button>
             </div>
           </div>

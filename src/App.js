@@ -14,6 +14,7 @@ import Profile from "./pages/profile/profile"
 import DoctorCard from "./pages/doctors/DoctorCard";
 import Gallery from "./components/gallery/gallery";
 import Donate from "./pages/Donate/donate";
+import { Events } from "leaflet";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/doctorcard" element={<DoctorCard />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/donate" element={<Donate />} />
+            <Route path="urgentcare" element={<Events /> } />
                <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

@@ -167,28 +167,28 @@ const Footer = () => {
       <div className="max-w-[1200px] mx-auto mt-14 px-2 flex items-center gap-x-3 gap-y-5 justify-center flex-wrap sm:justify-between">
         <ul className="flex gap-x-5 item-center">
           <li>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/dmicentre">
               <i>
                 <FaFacebook size="25px" fill="white" title="facebook" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/">
+            <a href="https://www.linkedin.com/in/dmi-centre-171b8117b">
               <i>
                 <FaLinkedin size="25px" fill="white" title="Linkedin" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/dmicentre/">
               <i>
                 <BsInstagram size="25px" fill="white" title="Instagram" />
               </i>
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com/">
+            <a href="https://www.twitter.com/dmicentre1">
               <i>
                 <BsTwitter size="25px" fill="white" title="Twitter" />
               </i>

@@ -9,6 +9,11 @@ import OnlinePrescriptionService from "./OnlinePrescriptionService";
 import CDIC from "../../assets/cdic.png"
 import TypeWriterEffect from 'react-typewriter-effect';
 import Footer from "../../layouts/Footer";
+import one from "../../assets/cdic1.JPG"
+import two from "../../assets/cdic2.JPG"
+import three from "../../assets/cdic3.JPG"
+import four from "../../assets/cdic4.JPG"
+import five from "../../assets/cdic5.JPG"
 
 const Prescribtion = () => {
   return (
@@ -30,6 +35,8 @@ const Prescribtion = () => {
           <h1 className="text-3xl font-semibold text-primaryDark font-poppins">
             PROJECTS
           </h1>
+
+          <img src={one} alt="CDIC" />
           <h2>------- Changing Diabetes® In Children (CDiC).</h2>
             <h2>Project milestone:2014-2017</h2>
           <h2>Partners: Novo Nordisk A/S Novo Alle’ DK-28880 Bagsvaerd Denmark (“NNA/S”),
@@ -59,6 +66,7 @@ const Prescribtion = () => {
 <br/>
 <br/>
 
+<img src={two} alt="CDIC" />
             <h2>------- Changing Diabetes® In Children (CDiC) project.</h2>
             <h2>Project milestone: 1 st January 2018-31 st December 2020</h2>
           <h2>Partners: Novo Nordisk A/S Novo Alle’ 2880 Bagsvaerd Denmark</h2>
@@ -86,7 +94,7 @@ const Prescribtion = () => {
 
 <br/>
 <br/>
-
+<img src={three} alt="CDIC" />
             <h2>------- Integrating type 1 diabetes care into health systems in Kenya (WDF20-1799)
             project. <br />
             WDF reference title: Integrating type 1 diabetes care into health systems in Eastern
@@ -120,6 +128,7 @@ const Prescribtion = () => {
 
 <br/>
 <br/>
+<img src={four} alt="CDIC" />
             <h2>------- Promoting Healthy Living through Schools Project</h2>
             <h2>Project milestone: (2014-2018)</h2>
           <h2>Partners: World Diabetes Foundation (WDF)</h2>
@@ -147,6 +156,7 @@ const Prescribtion = () => {
 
 <br/>
 <br/>
+<img src={five} alt="CDIC" />
             <h2>------- Diabetes foot care: Consolidating the gains</h2>
             <h2>Project milestone: 1 st April 2014 -1 st July 2017</h2>
             <h2>Overall goal: <br />
