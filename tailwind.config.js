@@ -13,7 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         hospitalImg: "url(./assets/hand.jpg)",
-        formImg: "url(./assets/doctor.avif)",
+        formImg: "url(./assets/ect.jpg)",
       },
     },
     screens: {

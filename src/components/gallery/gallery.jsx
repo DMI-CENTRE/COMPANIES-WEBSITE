@@ -1,23 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import leaders from "../../data/OurLeader";
+import Heading from "../../components/ui/Heading";
+import LeadersCard from "../../components/cards/LeadersCard";
+import Footer from "../../layouts/Footer";
 
-const Gallery = ( ) => {
+
+const Gallery =  ( ) => {
    return (
-    <div className="mt-5 max-w-[380px] mx-auto rounded shadow-lg z-10 sm:mx-0">
-      <div className="overflow-hidden">
-        <img
-          src={img}
-          alt="cute doctor"
-          className="rounded-t-md transition duration-300 ease-in hover:scale-110 hover:brightness-75"
-        />
-      </div>
-      <div className="bg-white text-center py-7">
-        <Link to="">
-          <h1 className="text-primary text-xl font-bold">{name}</h1>
-        </Link>
-        <p className="text-base text-gray-600 mt-1">{profession}</p>
-      </div>
-    </div>
+    <section className="mt-14">
+          <Heading text="DMI Potraits" />
+          <div className="mt-10 px-2 sm:px-5 flex flex-wrap gap-6 sm:gap-6 sm:justify-start lg:gap-8 xl:gap-10">
+            {leaders.map((leader) => (
+              <LeadersCard
+                key={leader.id}
+                img={leader.img}
+                      />
+            ))}
+          </div>
+          <Footer />
+        </section>
   );
 };
 

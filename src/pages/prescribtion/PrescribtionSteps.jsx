@@ -11,7 +11,7 @@ const PrescribtionSteps = ({ img, step, todo, text, flexFlow }) => {
         <img src={img} alt={`step_${step}`} />
       </div>
       <div className="py-4 md:py-0">
-        <h6 className="text-xl">Step {step}</h6>
+        <h6 className="text-xl">Option {step}</h6>
         <h2 className="py-3 text-2xl font-semibold text-primaryDark font-poppins">
           {todo}
         </h2>

@@ -8,7 +8,7 @@ const NewsLetterSubscribtion = () => {
       <div className="bg-white flex flex-col sm:flex-row items-center">
         <div className="w-1/2">
           <img
-            src="/images/young.jpg"
+            src="/images/eric.jpg"
             alt="doctor talking with patients"
             className="w-full"
           />
@@ -38,9 +38,10 @@ const NewsLetterSubscribtion = () => {
               Subscribe to our newsletter
             </h1>
             <p className="pt-5 text-base text-gray-100">
-              Medcare is the only hospital in the state of Bagmati to achieve
-              One of Healthgrades Nepal's 10 Best Hospitals for Joint
-              Replacement in 2016.
+            DMI Centre empowers people living with diabetes, conducts mass screening on diabetes,
+            hypertension & body weight, raises funds fundraises to support projects,
+            facilitates training among peer educators & health care providers and
+            conducts research to assist in the management of diabetes.
             </p>
           </div>
           <div className="w-full md:w-1/2 pt-10 md:pl-10">

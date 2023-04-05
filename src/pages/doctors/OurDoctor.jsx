@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
@@ -7,20 +6,13 @@ import "swiper/css/pagination";
 import "./ourdoctor.css";
 import DoctorCard from "./DoctorCard";
 import doctors from "../../data/OurDoctor";
-import { IoIosArrowRoundForward } from "react-icons/io";
 
 const OurDoctor = () => {
   return (
     <section className="max-w-[1200px] mx-auto px-2 pt-20">
-      <h1 className="text-3xl font-bold text-primary">Directors</h1>
+      <h1 className="text-3xl font-bold text-primary">Board of Directors</h1>
       <div className="max-w-max flex items-center gap-x-2 ml-auto mr-0">
-        <Link to="" className="text-base font-medium text-primary">
-          Meet the Team
-        </Link>
-        <i>
-          <IoIosArrowRoundForward size="40px" fill="rgb(10, 124, 139)" />
-        </i>
-      </div>
+                     </div>
       {/* swiper slide */}
       <Swiper
         spaceBetween={50}

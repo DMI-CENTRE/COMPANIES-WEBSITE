@@ -37,15 +37,6 @@ const Dropdown = () => {
               </li> */}
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
                 <NavLink
-                  to="/findadoctor"
-                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  onClick={() => setToggle(false)}
-                >
-                  Events
-                </NavLink>
-              </li>
-              <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
-                <NavLink
                   to="/aboutus"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
@@ -64,11 +55,22 @@ const Dropdown = () => {
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
                 <NavLink
+                  to="/findadoctor"
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                  onClick={() => setToggle(false)}
+                >
+                  Events
+                </NavLink>
+              </li>
+
+
+              <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
+                <NavLink
                   to="/ourdoctors"
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Directors
+                  Education
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 hover:border-b-4 hover:border-white">
@@ -77,7 +79,7 @@ const Dropdown = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   onClick={() => setToggle(false)}
                 >
-                  Prescriptions
+                  Board of Directors
                 </NavLink>
               </li>
               <li className="text-base font-medium text-white px-4 mb-4 hover:border-b-4 hover:border-white">

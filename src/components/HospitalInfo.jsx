@@ -37,8 +37,8 @@ const HospitalInfo = () => {
       className="max-w-[1200px] mx-auto px-2 py-12 flex items-center flex-wrap justify-center gap-x-10 gap-y-6 bg-gradient-to-r from-primaryDark to-primary relative top-20 sm:justify-start z-10 sm:flex-nowrap sm:gap-x-6 lg:gap-x-10 "
     >
       <div className="min-w-fit w-56 flex flex-col-reverse items-center">
-        <h1 className="text-white text-xl font-medium ">Doctors</h1>
-        <h2 className="text-white text-4xl font-bold">{doctors}</h2>
+        <h1 className="text-white text-xl font-medium ">Talk/Screening</h1>
+        <h2 className="text-white text-4xl font-bold">{doctors}+</h2>
       </div>
       <div className="min-w-fit w-56 flex flex-col-reverse items-center">
         <h1 className="text-white text-xl font-medium ">Happy Patients</h1>

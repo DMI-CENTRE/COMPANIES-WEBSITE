@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import { IoIosContact } from "react-icons/io";
 import Button from "../components/ui/Button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   let activeStyle = {
@@ -32,20 +33,13 @@ const Navbar = () => {
             Services
           </NavLink>
         </li>
-        <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
-          <NavLink
-            to="/urgentcare"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
-            Projects
-          </NavLink>
-        </li>
+
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
           <NavLink
             to="/ourdoctors"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Directors
+            Board of Directors
           </NavLink>
         </li>
         <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
@@ -53,16 +47,34 @@ const Navbar = () => {
             to="/onlineprescribtions"
             style={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
-            Education
+            Projects
           </NavLink>
         </li>
 
+        <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
+          <NavLink
+            to="/urgentcare"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Events
+          </NavLink>
+        </li>
+      <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
+          <NavLink
+            to="/gallery"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Gallery
+          </NavLink>
+        </li>
+        <li className="text-base font-medium text-gray-600 hover:border-b-4 hover:border-primary">
         <NavLink
-        to="/findadoctor"
-        style={({ isActive }) => (isActive ? activeStyle : undefined)}
-      >
-        Events
-      </NavLink>
+          to="/donate"
+          style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        >
+          Donate
+        </NavLink>
+      </li>
       </ul>
       <div className="flex items-center gap-x-2 lg:gap-x-8">
         <i>
@@ -71,9 +83,9 @@ const Navbar = () => {
         <i>
           <IoIosContact size="30px" fill="grey" className="cursor-pointer" />
         </i>
-        <a href="#contact">
-          <Button text="Contact" />
-        </a>
+        <Link to="/donate">
+          <Button text="DONATE" />
+        </Link>
       </div>
     </nav>
   );

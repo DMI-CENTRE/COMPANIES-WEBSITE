@@ -3,6 +3,7 @@ import NewsCard from "../../components/cards/NewsCard";
 import QuickLinkCard from "../../components/cards/QuickLinkCard";
 import news from "../../data/News";
 import links from "../../data/QuickLink";
+import { Link } from "react-router-dom";
 
 const RecentNews = () => {
   return (
@@ -24,7 +25,7 @@ const RecentNews = () => {
           </div>
           <div className="bg-primary px-4 py-5">
             <h2 className="text-white text-base font-semibold pb-1 cursor-pointer">
-              Why Join DMI CENTRE
+              <Link to="/ourservices"> Why Join DMI CENTRE </Link>
             </h2>
             <p className="text-white text-sm cursor-pointer">
               Feburary 21, 2023 . Get support from us
