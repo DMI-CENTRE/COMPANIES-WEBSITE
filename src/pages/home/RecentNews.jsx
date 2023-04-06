@@ -25,7 +25,7 @@ const RecentNews = () => {
           </div>
           <div className="bg-primary px-4 py-5">
             <h2 className="text-white text-base font-semibold pb-1 cursor-pointer">
-              <Link to="/ourservices"> Why Join DMI CENTRE </Link>
+              <Link to="/aboutus"> Why Join DMI CENTRE </Link>
             </h2>
             <p className="text-white text-sm cursor-pointer">
               Feburary 21, 2023 . Get support from us

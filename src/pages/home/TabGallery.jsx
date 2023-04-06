@@ -15,9 +15,9 @@ const TabGallery = () => {
       description:
         "DMI CENTRE designs, implements and publish programs for creating public awareness on prevention, diagnosis and management of diabetes. We provide services to people living with diabetes, care-givers, healthcare professionals, the community in general and other stakeholders involved in diabetes management..",
 
-      coverImg: "/images/tab_gallery/cover_img_1.avif",
+      coverImg: "/images/tab_gallery/walk2.JPG",
       videoLink: "https://www.youtube.com/embed/bUGx4HoQs8o",
-      videoImg: "/images/tab_gallery/video_img_1.avif",
+      videoImg: "/images/tab_gallery/walk2.JPG",
     },
     {
       id: 2,
@@ -29,9 +29,9 @@ const TabGallery = () => {
       description:
         "Why DMI CENTRE.",
 
-      coverImg: "/images/tab_gallery/cover_img_2.avif",
+      coverImg: "/images/tab_gallery/hand.jpg",
       videoLink: "https://www.youtube.com/embed/SJ8jYHPLACQ",
-      videoImg: "/images/tab_gallery/video_img_2.avif",
+      videoImg: "/images/tab_gallery/hand.jpg",
     },
     {
       id: 3,
@@ -42,9 +42,9 @@ const TabGallery = () => {
         "A healthy population free from diabetes and related complications.",
       description:
         "Reached over 2.2M people through the community awareness programmes",
-                coverImg: "/images/tab_gallery/cover_img_3.avif",
+                coverImg: "/images/tab_gallery/walk.JPG",
       videoLink: "https://www.youtube.com/embed/1rwUMglyBU8",
-      videoImg: "images/tab_gallery/video_img_3.avif",
+      videoImg: "images/tab_gallery/walk.JPG",
     },
 
     {
@@ -59,7 +59,7 @@ const TabGallery = () => {
 
       coverImg: "/images/tab_gallery/cover_img_4.avif",
       videoLink: "https://www.youtube.com/embed/TgYY6cRazHM",
-      videoImg: "/images/tab_gallery/video_img_4.avif",
+      videoImg: "/images/tab_gallery/cdic1.JPG",
     },
   ];
   return (

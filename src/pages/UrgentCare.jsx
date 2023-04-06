@@ -31,8 +31,7 @@ const Donate = () => {
         <div className="mt-5">
           <PrescribtionSteps
             img="https://dmi.or.ke/wp-content/uploads/2020/07/4.jpeg"
-            step={1}
-            todo="Diabetes Charity Golf Tournament held on Friday, February 22nd 2019"
+             todo="Diabetes Charity Golf Tournament held on Friday, February 22nd 2019"
             text="----- The major awards presented to winners and associates.
             DMI Chairperson presenting award to Vetlab Golf Club CEO.
             Official participant preparing to make a shot.

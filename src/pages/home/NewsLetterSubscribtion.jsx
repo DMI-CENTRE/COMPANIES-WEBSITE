@@ -9,7 +9,7 @@ const NewsLetterSubscribtion = () => {
       <div className="bg-white flex flex-col sm:flex-row items-center">
         <div className="w-1/2">
           <img
-            src="/images/eric.jpg"
+            src="https://media.licdn.com/dms/image/C5603AQG5x7G6bOC5pQ/profile-displayphoto-shrink_800_800/0/1590745145380?e=1686182400&v=beta&t=Us6ctICw-Towd8dcXiZhlE36KKxsr9sEOwXYCAGE3gQ"
             alt="doctor talking with patients"
             className="w-full"
           />
