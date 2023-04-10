@@ -40,6 +40,8 @@ const OurDoctor = () => {
               name={doctor.name}
               bio={doctor.bio}
               profession={doctor.profession}
+              email={doctor.email}
+              phone={doctor.phone}
             />
           </SwiperSlide>
         ))}
